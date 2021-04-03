@@ -17,7 +17,7 @@ The details of the implementation of the bidirectional network was discussed. In
 We performed our expriment with the MNIST dataset. All networks discussed above are trained using 50,000 training samples from MINIST dataset, and there are 10,000 testing samples to evaluate their classification accuracy. Each network is trained 100 epochs with learning rate 0.01 and batch size 128. The activation functions for the output layer and hidden
 layers are Softmax and Tanh, respectively. Furthermore, we use Categorical Cross-Entropy as our loss function. Below is the performance:
 
-![alt text](https://github.com/xpada001/volcano_CNN/blob/main/MNIST_perf.png?raw=true)
+![alt text](https://github.com/xpada001/bidirect_backprop/blob/main/MNIST_perf.png?raw=true)
 
 The BDFA model gives us the most accurate results on MNIST. The error rates of FA and DFA are very close and are significantly higher than the error rates of BFA and BDFA. This is an evidence that trainable feedback weights would be preferred to random feedback weights during the training process. However, there is a time trade off for high accuracy.
 
