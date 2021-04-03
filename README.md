@@ -36,3 +36,6 @@ test its robustness against targeted and untargeted adversarial inputs.
 ## More information
 
 For more information, including visualization of the mentioned neural networks, it can be found in **report.pdf**. **BNetwork.ipynb** has changed its name to **BDBP_classification_regression.ipynb** for better understanding to the audience.
+
+### Note
+The jupyter notebook is missing a part of the code that I can no longer retrieve. For any questions, I would love to discuss further by sending me an email at chensiao06@gmail.com
